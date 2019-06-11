@@ -1,0 +1,90 @@
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+}
+
+.navbar {
+    background-color: rgb(54, 100, 143);
+}
+
+.nav-link {
+    color: black;
+    font-family: sans-serif;
+    size: 40px;
+}
+
+.navbar a:hover {
+    background-color: white;
+    color: black;
+}
+
+.carousel {
+    margin-bottom: 8px;
+    padding: 60px;
+}
+
+.carousel-caption {
+    bottom: 40px;
+    z-index: 10;
+}
+
+.carousel-item {
+    height: 32rem;
+}
+
+.carousel-item>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+}
+
+.col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: black;
+    text-align: justify;
+}
+
+h2 {
+    font-weight: 400;
+    text-align: auto;
+}
+
+.col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+}
+
+.col-lg-4 p .btn {
+    background-color: rgb(50, 124, 185);
+}
+
+.featurette-divider {
+    margin: 5rem 0;
+}
+
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+}
+
+@media (min-width: 40em) {
+    .carousel-caption p {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+    }
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 62em) {
+    .featurette-heading {
+        margin-top: 7rem;
+    }
+}

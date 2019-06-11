@@ -1,0 +1,28 @@
+.container {
+    max-width: 960px;
+}
+
+.lh-condensed {
+    line-height: 1.25;
+}
+
+.navbar {
+    background-color: rgb(54, 100, 143);
+}
+
+.nav-link {
+    color: black;
+    font-family: sans-serif;
+    size: 40px;
+}
+
+.navbar a:hover {
+    background-color: white;
+    color: black;
+}
+
+.col-md-2 li {
+    list-style: none;
+    padding: 5px;
+    font: bold 14px, sans-serif;
+}

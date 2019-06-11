@@ -1,0 +1,114 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    text-align: center;
+    background-color: rgb(245, 243, 164);
+}
+
+#agrupar {
+    width: 90%;
+    margin: 15px auto;
+    text-align: left;
+}
+
+#cabecera {
+    border: 1px;
+    padding: 20px;
+}
+
+#caja1 {
+    width: 60%;
+    float: left;
+}
+
+#caja2 {
+    width: 40%;
+    float: left;
+    padding: 20px 0px 0px 0px;
+    font-family: Impact;
+    font-size: 20px;
+}
+
+#menu li {
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+    font: bold 14px, sans-serif;
+}
+
+a {
+    background: rgba(209, 32, 9, 0.733);
+    margin-block: 12px;
+    padding: -9px;
+    color: #fff;
+}
+
+hr {
+    clear: both;
+}
+
+a:hover {
+    background: rgb(168, 166, 10);
+}
+
+#block2 {
+    display: inline-block;
+}
+
+#sec {
+    width: 70%;
+    margin: 20px 40px 20px 0px;
+    float: left;
+    text-align: justify;
+}
+
+section img {
+    padding: 0px 0px 0px 20px;
+}
+
+#col {
+    width: 20%;
+    margin: 20px 0px;
+    float: left;
+    padding: 20px;
+    background: #cccccc;
+    text-align: justify;
+}
+
+#col img {
+    padding: 5px 0px 0px 50px;
+}
+
+#ca1 {
+    width: 30%;
+    float: left;
+}
+
+#ca2 {
+    text-align: center;
+    width: 40%;
+    float: left;
+}
+
+#ca3 {
+    width: 30%;
+    float: left;
+}
+
+#ca4 {
+    width: 50%;
+    float: left;
+}
+
+#ca5 {
+    width: 50%;
+    float: left;
+}
+
+#col2 img {
+    float: left;
+    margin: -8%;
+}
